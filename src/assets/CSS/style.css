@@ -13,16 +13,21 @@ body {
 
 .carta {
     width: 300px;
-    height: 600px;
+    height: 500px;
     background-color: white;
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
-    line-height: 600px;
+    line-height: 500px;
     font-size: 100px;
 }
 
 
 .carta.hearts {
     color: red !important;
+}
+button{
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
 }
