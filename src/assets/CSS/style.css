@@ -1,33 +1,50 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: rgba(14,126,18,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(14, 126, 18, 255);
 }
 
 .contenedor {
-    text-align: center;
+  text-align: center;
 }
 
 .carta {
-    width: 300px;
-    height: 500px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 500px;
-    font-size: 100px;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative; /* Para posicionar los elementos dentro de la carta */
 }
 
-
-.carta.hearts {
-    color: red !important;
+.numero-centro {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-button{
-    margin-top: 10px;
-    height: 40px;
-    width: 120px;
+
+.pinta-esquina {
+  font-size: 50px;
+  position: absolute;
+}
+
+.esquina-superior-izquierda {
+  top: 10px;
+  left: 10px;
+}
+
+.esquina-inferior-derecha {
+  bottom: 10px;
+  right: 10px;
+}
+
+button {
+  margin-top: 10px;
+  height: 40px;
+  width: 120px;
 }
